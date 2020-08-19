@@ -1,20 +1,21 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+title: jar71
 layout: default
+permalink: /
 ---
 
-# Soon
+# Jar71
 
-A simple *coming soon* page built for [Jekyll](https://jekyllrb.com/docs/).
+Jar71 is a new IoT service ready to serve your needs. Check back here for more information!
 
-## What's in it?
+## Want more info?
 
-Soon is a single static page with a full-screen image, nothing more. Remember those *under construction* sites? The point is to show a quick message or a temporary contact page to your visitors. Use this template for a few hours to a few days while you are building your site in the background. Since the page comes with a Jekyll environment, you can host it for free on GitHub.
+Stay tuned! Things are just getting off the ground 🚀. We are a privacy respecting LLC ready to deliver IoT in the home.
 
 ***
 
-## Get started
+## Get in touch
 
-[README](https://github.com/YJPL/soon/blob/master/README.md) Get [Soon](https://github.com/YJPL/soon/).
+Want to distribute your IoT home product with Jar71? Get in touch!

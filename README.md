@@ -1,45 +1,24 @@
 # Soon
+# Jar-71 web
 
-A super simple *coming soon* page built for [Jekyll](https://jekyllrb.com/docs/).
+### Generating from Docker
 
-## What's in it?
+```
+git clone https://github.com/anthr76/anthony-rabbito-web.git
+```
 
-Soon is a single static page with a full-screen image, nothing more. Remember those *under construction* sites? The point is to show a quick message or a temporary contact page to your visitors. Use this template for a few hours to a few days while you are building your site in the background. Since the page comes with a Jekyll environment, you can host it for free on GitHub.
+##### Building from scratch
 
-***
+```
+docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/jekyll jekyll build
+```
 
-## Start Soon
-It's easy. [Install Jekyll](https://jekyllrb.com/docs/installation/), clone this folder, ```cd soon``` then run ```bundle exec jekyll serve``` to check how it looks locally (localhost:4000). Self-host or use [GitHub pages](https://pages.github.com) to publish the site.
+##### Serving local webserver with drafts
 
-You just need to change ```_config``` with your contact and site information and ```index.md``` to get the page up and running. Although it is just a starting point and you can change pretty much anything else. If you change the background image, don't forget to link the new image in ```_layouts/default.html```. The background image is located in ```images```.
+```
+docker run --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --watch --drafts
+```
 
-***
+### Generating on bare-metal
 
-The sooner you start building your site the better. Since you wanted to install Jekyll anyway, *Soon* comes with all the usual starting folders to run a complete Jekyll site or blog. This means you can publish your *Soon* page and restyle, write and test your site in the background. Once you are happy with your layouts for posts, pages, collections and anything else in your site assets you can just overwrite everything and push your live site.
-
-Download [Soon](https://github.com/YJPL/soon/archive/master.zip).
-
-***
-
-## Screenshot
-
-![Soon for Jekyll, screenshot](https://raw.githubusercontent.com/YJPL/soon-screenshots/master/Soon-Screen-Shot-2020-06-25-at-16.06.28.png)
-
-***
-***
-
-## Sites using Soon or that have used Soon at some point
-
-- [alternatyves.com](https://alternatyves.com)
-
-<figure>
-<a href="https://alternatyves.com"><img src="https://raw.githubusercontent.com/YJPL/soon-screenshots/master/Soon_Screen-Shot-2019-02-18-at-14.44.01.png"/></a>
-</figure>
-
-- [Baixada Santista Game Dev (BSGD)](https://bsgd-sp.github.io)
-
-<figure>
-<a href="https://bsgd-sp.github.io"><img src="https://raw.githubusercontent.com/bsgd-sp/bsgd-sp.github.io/master/images/Screenshot_2020-03-13%20https%20bsgd-sp%20github%20io.png"/></a>
-</figure>
-
-Are you using Soon? [Let me know!](https://github.com/YJPL/soon/edit/master/README.md)
+[From Jekyll](https://jekyllrb.com/docs/installation/)
