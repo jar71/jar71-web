@@ -8,6 +8,8 @@ permalink: /
 
 # Jar71
 
+[logo]: https://raw.githubusercontent.com/anthr76/jar71-web/master/images/transparent_background.png "Jar 71 Logo"
+
 Jar71 is a new IoT service ready to serve your needs. Check back here for more information!
 
 ## Want more info?
