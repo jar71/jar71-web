@@ -6,8 +6,6 @@ layout: default
 permalink: /
 ---
 
-# Jar71
-
 ![logo](https://raw.githubusercontent.com/anthr76/jar71-web/master/images/transparent_background.png "Logo")
 
 Jar71 is a new IoT service ready to serve your needs. Check back here for more information!
