@@ -1,4 +1,3 @@
-# Soon
 # Jar-71 web
 
 ### Generating from Docker
